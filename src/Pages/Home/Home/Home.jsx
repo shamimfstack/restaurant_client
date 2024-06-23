@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet-async";
 
 export default function Home() {
     return (
-        <div>
+        <div className="max-h-full">
             <Helmet>
                 <title>homepage</title>
             </Helmet>
