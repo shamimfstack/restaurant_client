@@ -64,7 +64,8 @@ export default function Navbar() {
         </div>
         <div className="flex md:hidden relative">
           <button onClick={() => setShowDropdown(!showDropdown)} className="">
-            <HiMiniBars3 className="text-3xl" />
+            {showDropdown ? <IoClose className="text-3xl" /> : <HiMiniBars3 className="text-3xl" />}
+            
           </button>
           <div className={
                     showDropdown

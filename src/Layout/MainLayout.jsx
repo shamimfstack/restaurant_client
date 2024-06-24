@@ -4,8 +4,8 @@ import Footer from "../Shared/Footer";
 
 export default function MainLayout() {
   return (
-    <div className="max-w-7xl mx-auto">
-        <Navbar />
+    <div className="max-w-7xl mx-auto max-h-full">
+      <Navbar />
       <Outlet />
       <Footer />
     </div>

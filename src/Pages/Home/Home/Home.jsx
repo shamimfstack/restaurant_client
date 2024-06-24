@@ -1,12 +1,14 @@
 import { Helmet } from "react-helmet-async";
+import bannerImg from "../../../../src/assets/dark_banner.jpg"
+import Banner from "../Banner/Banner";
 
 export default function Home() {
     return (
-        <div className="max-h-full">
+        <div style={{backgroundImage: {bannerImg}}} className="max-h-screen">
             <Helmet>
                 <title>homepage</title>
             </Helmet>
-            <h1>Homepage</h1>
+            <Banner />
         </div>
         );
 }

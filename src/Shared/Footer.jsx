@@ -4,7 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
     return (
-        <footer className="flex flex-col md:flex-row justify-between items-center p-4 bg-[#646464]">
+        <footer className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 p-4 bg-[#646464]">
             <div>
                 <p>&copy;2024 - All Copyright Reserved by Shamim Ahammad</p>
             </div>
